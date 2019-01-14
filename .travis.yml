@@ -15,7 +15,7 @@ before_script:
 
 script:
   - ng build --prod --aot
-  - ng test
+  - ng test --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
 
 deploy:
   provider: heroku
