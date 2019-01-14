@@ -1,0 +1,24 @@
+sudo: required
+addons:
+  chrome: stable
+
+language: node_js
+node_js:
+  - "10"
+
+branches:
+  only:
+    - master
+
+before_script:
+  - npm install -g @angular/cli
+
+script:
+  - ng build --prod --aot
+  - ng test
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: 0d4f77d3-1a94-4d94-b120-74fcf6fc5190 
+  app: try-angular-to-heroku-2
