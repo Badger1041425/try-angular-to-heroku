@@ -25,8 +25,6 @@ deploy:
 
 notifications:
   slack:
-    template:
-      - "Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) of %{repository_slug}@%{branch} by %{author} %{result} in %{duration}"
     rooms: 
       - secure: "wat-tha-klong:2Ux2sA0DIEg1WuNrRjIfBhAy#general"
     on_success: always # default: change
