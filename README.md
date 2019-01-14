@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Badger1041425/try-angular-to-heroku.svg?branch=master)](https://travis-ci.org/Badger1041425/try-angular-to-heroku)
+
 # TryAngularToHeroku
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
