@@ -23,9 +23,9 @@ deploy:
     secure: 0d4f77d3-1a94-4d94-b120-74fcf6fc5190 
   app: try-angular-to-heroku-2
 
-notifications:
-  slack:
-    rooms: 
-      - secure: "wat-tha-klong:2Ux2sA0DIEg1WuNrRjIfBhAy#general"
-    on_success: always # default: change
-    on_failure: always # default: always
+#notifications:
+#  slack:
+#    rooms: 
+#      - secure: "wat-tha-klong:2Ux2sA0DIEg1WuNrRjIfBhAy#general"
+#    on_success: always # default: change
+#    on_failure: always # default: always
